@@ -13,9 +13,8 @@ input::placeholder{
     color: rgb(050,150,150);
   }
 
-#n3 h1{
-    padding:0px;
-    font-size:80px;
+h2{
+    font-size: small;
 }
 
 sub {
