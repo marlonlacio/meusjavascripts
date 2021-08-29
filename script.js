@@ -8,11 +8,11 @@ function resultado() {
     let numero = document.getElementById('n3')
     let c = 1
     numero.innerHTML = `<h2>O número escolhido foi: </h2><br><h1>${n}</h1>`
-    saida.innerHTML = `<h2>Tabuada de <br>${n}</h2>`
-    saida1.innerHTML = `<h2>Divisão de <br>${n}</h2>`
-    saida2.innerHTML = `<h2>Exponenciação de <br>${n}</h2>`
-    saida3.innerHTML = `<h2>Soma de <br>${n}</h2>`
-    saida4.innerHTML = `<h2>Subtração de <br>${n}</h2>`
+    saida.innerHTML = `<h2>Tabuada</h2>`
+    saida1.innerHTML = `<h2>Divisão</h2>`
+    saida2.innerHTML = `<h2>Exponenciação</h2>`
+    saida3.innerHTML = `<h2>Soma</h2>`
+    saida4.innerHTML = `<h2>Subtração</h2>`
     
     while (c <= 10) {
         saida.innerHTML += `${n} x ${c} = <strong>${n * c}</strong><br>`
