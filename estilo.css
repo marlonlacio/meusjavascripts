@@ -10,6 +10,11 @@
     margin: 0px;
 }
 
+body{  
+  background:url('https://img.freepik.com/psd-gratuitas/foguete-espacial-3d-com-fumaca_23-2148938939.jpg?size=338&ext=jpg');
+  background-repeat:no-repeat;
+}
+
 input::placeholder{
     color: rgb(050,150,150);
   }
