@@ -18,9 +18,8 @@ body{
 }
 
 input::placeholder{
-    background-color:rgba(255,255,255,0.6)
-    color: white;
-  }
+    color:rgba(255,255,255,0.6)
+    }
 
 #btnres{
     background-color: black;
