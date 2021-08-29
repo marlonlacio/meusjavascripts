@@ -36,10 +36,12 @@ sub {
 
 h2{
     font-size: small;
+    color: white;
 }
 
 #n3 h1{
     font-size:70px;
+    color: white;
 }
 
 #entrada{
