@@ -58,7 +58,7 @@ h2{
    display:flex; 
    overflow:auto;
    border-radius: 14px;
-   height: fit-content;  
+   height: 70vh;  
    background-color: rgba(0,0,0,0.3); 
 }
 
