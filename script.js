@@ -7,7 +7,7 @@ function resultado() {
     let n = Number(document.getElementById('fnum').value)
     let numero = document.getElementById('n3')
     let c = 1
-    numero.innerHTML = `<h2>O número escolhido foi <br>${n}</h2>`
+    numero.innerHTML = `<h2>O número escolhido foi: </h2><br><h1>${n}</h1>`
     saida.innerHTML = `<h2>Tabuada de <br>${n}</h2>`
     saida1.innerHTML = `<h2>Divisão de <br>${n}</h2>`
     saida2.innerHTML = `<h2>Exponenciação de <br>${n}</h2>`
