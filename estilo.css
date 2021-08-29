@@ -17,6 +17,10 @@ h2{
     font-size: small;
 }
 
+#n3 h1{
+    font-size:70px;
+}
+
 sub {
     vertical-align: top;
     font-size: x-small;
