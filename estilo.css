@@ -13,9 +13,19 @@
 body{  
   padding-top: 10px;
   background:url('https://img.freepik.com/psd-gratuitas/foguete-espacial-3d-com-fumaca_23-2148938939.jpg?size=338&ext=jpg');
+  
   background-position:center;
   background-repeat:no-repeat;
   background-size:cover;
+}
+
+#calc{
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/26ec7441130093.57a0a26b424b9.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding-top: 10px;
+
 }
 
 input::placeholder{
@@ -75,4 +85,28 @@ h2{
     text-align: center;
     border-bottom: none;
     color: white;
+}
+
+#tela::placeholder{
+    color:black;
+}
+
+#tela{
+    display: flex;
+    margin:auto;
+    width:133px;
+    height: 5vh;
+    border:1px solid black;
+    color:black;
+    font-size: x-large;
+    background-color:#a6901f63 /*rgba(255,255,255,0.4);*/
+}
+
+.btn{
+    height:30px;
+    width: 30px;
+    border: 1px solid #A69D1F;
+    font-weight: 800;
+    box-shadow: 1px 1px 3px #F2E635;
+    
 }
