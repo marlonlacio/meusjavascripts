@@ -111,3 +111,7 @@ h2{
     box-shadow: 1px 1px 3px #F2E635;
     
 }
+
+.btn:hover{
+    box-shadow: inset;
+}
