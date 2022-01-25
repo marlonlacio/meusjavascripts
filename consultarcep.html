@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultando CEP</title>
+    <style>
+        body{
+            background-color: #9FB3BF;
+        }
+        button{
+            background-color: #424E59;
+        }
+        div{
+            font-size: x-large;
+        }
+        #resposta{            
+            border-radius: 14px;
+            margin-top: 2px;
+            padding: 5px;
+        }
+        h1{
+            text-align: center;
+        }
+        #cep{
+            border-radius: 5px;
+            background-color: rgba(197, 209, 217,0.9);
+        }
+        #conteudo{
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consultando CEP</h1>
+    <div id="conteudo">
+
+        <label for="cep">Digite o CEP:</label>
+
+        <input type="text" id="cep" maxlength="9">
+
+        <button type="submit" style="color: white; border-radius: 8px;">
+            Buscar
+        </button>
+
+        <div id="resposta">
+
+        </div>
+    </div>
+</body>
+<script src="consultarcep.js"></script>
+</html>

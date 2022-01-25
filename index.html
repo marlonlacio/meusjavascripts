@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/d639a0fa5e.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+  #foto{
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+  }
+  *{
+    margin: 0%;
+  }
+  .opcao{
+    display: flex;
+    margin-top: 2px;
+    border-radius: 5%;
+    background-color: #D9C791;
+    height: 10vh;
+    border: 2px solid #D95C14;
+  }
+  a{
+    font-size: x-large;
+    color: #A62014;
+    margin: auto;
+  }
+  #check{
+  display: none;
+}
+  .checkbtn{
+    display: none;
+  }
+  nav ul{
+  display: flex;
+  font-size: large;
+}
+  header nav ul li{
+  font-size: larger;
+  padding: 2px 4px; 
+  border-bottom: 1px solid #D95C14;
+  display: block;
+}
+
+  header .checkbtn{
+    display: block;
+    color: black;
+    float: right;
+    cursor: pointer;
+  }
+  header ul {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: var(--cor3);
+  top: 4vh;
+  left: -200%;
+  text-align: center;
+  transition: all .5s;
+  box-sizing: border-box;
+  }
+
+  header nav ul li {
+    display: block;
+    margin: 4vh 0;
+  }
+  header #check:checked ~ ul {
+    left: 0;
+  }
+
+</style>
+<body>
+  <header>
+    <nav style="background-color: #F29727; text-align: center; font-size: large; justify-content: space-between; display: flex; align-items: center; width: 100%; height: 4vh">
+      Bem vindo
+      <input type="checkbox" id="check" >
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <ul class="" style="background-color: rgba(217, 199, 145, 0.8);">
+            <li><a href="https://meuprimeirosite.vercel.app/">Meu primeiro site</a></li>
+            <li><a href="https://github.com/marlonlacio/meuprimeirosite/raw/main/imagens/Marlon_Lacio_Curr%C3%ADculo.pdf">Meu curriculo</a></li>
+          </ul>
+    </nav>
+    <div style="font-size: x-large; text-align: center; margin-top: 10px;">
+      <img src="https://github.com/marlonlacio/meuprimeirosite/blob/main/imagens/imagem_marlon.png?raw=true" alt="" id="foto">
+      <p>Este é um projeto para desenvolver minhas habilidades com javascripts</p>
+    </div>
+  </header>
+  <div id="conteudo" style="display: block;">
+    <div class="opcao">
+      <a href="calculadora.html">Calculadora</a>
+    </div>
+    <div class="opcao">
+      <a href="consultarcep.html">Buscador de CEP</a>
+    </div>
+    <div class="opcao">
+      <a href="operacoes.html">Operações matematicas</a>
+    </div>
+
+  </div>
+  
+</body>
+</html>
